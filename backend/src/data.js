@@ -77,3 +77,22 @@ export const sample_tags = [
   { name: "Fry", count: 1 },
   { name: "Soup", count: 1 },
 ];
+
+export const sample_users = [
+  {
+    id: 1,
+    name: "Hatem Afli",
+    email: "hatem.afli@gmail.com",
+    password: "12345",
+    address: "Nasrallah",
+    isAdmin: false,
+  },
+  {
+    id: 2,
+    name: "Helmi Afli",
+    email: "helmi.afli@gmail.com",
+    password: "00000",
+    address: "Nasrallah",
+    isAdmin: true,
+  },
+];
